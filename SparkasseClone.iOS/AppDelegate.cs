@@ -29,6 +29,8 @@ namespace SparkasseClone.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
+            UINavigationBar.Appearance.Translucent = false;
+
             return base.FinishedLaunching(app, options);
         }
     }
